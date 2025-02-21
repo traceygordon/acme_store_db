@@ -1,0 +1,29 @@
+{
+  "name": "acme_store_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+  "start:dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traceygordon/acme_store_db.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/traceygordon/acme_store_db/issues"
+  },
+  "homepage": "https://github.com/traceygordon/acme_store_db#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "uuid": "^11.0.5"
+  }
+}
